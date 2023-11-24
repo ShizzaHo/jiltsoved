@@ -1,0 +1,21 @@
+.input {
+    border-radius: 9px;
+    border: 1px solid #b7b7b7;
+    background: #f0f0f0;
+
+    padding: 10px 10px;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    outline: none;
+
+    &:hover {
+        border: 1px solid #797979;
+        background: #f0f0f0;
+    }
+}

@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+        width: 600px;
+
+        margin: 0 auto;
+
+        & > h1 {
+            color: #000;
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            margin-bottom: 20px;
+        }
+
+        & > h2 {
+            color: #000;
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    &__control {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+        margin: 0 auto;
+
+        & > span {
+            color: rgba(0, 0, 0, 0.6);
+            text-align: center;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            margin-bottom: 30px;
+        }
+
+        & > div {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
