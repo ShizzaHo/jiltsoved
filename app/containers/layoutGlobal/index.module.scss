@@ -13,6 +13,26 @@
     align-items: center;
     padding: 20px;
 
+    &__user {
+        & > h1 {
+            color: #fff;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        & > h2 {
+            color: #fff;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
     & > h1 {
         color: #fff;
         font-family: Inter;

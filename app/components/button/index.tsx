@@ -1,8 +1,8 @@
 import styles from './index.module.scss';
 
 interface iProps {
-    value?: string,
-    className?: string,
+    value?: string;
+    className?: string;
 }
 
 export default function Button(props: iProps) {
