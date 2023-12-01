@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 0px 14px 0px 0px;
+    background: #D8D8D8;
+    padding: 14px;
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        user-select: none;
+    }
+}
+
+.padding {
+    padding: 14px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}

@@ -1,0 +1,55 @@
+.info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    border-radius: 9px;
+    border: 1px solid #cacaca;
+    background: #e3e3e3;
+    padding: 10px 14px;
+
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid #797979;
+        background: #dadada;
+
+        & > .link {
+            right: 4px;
+            color: #797979;
+        }
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & > span {
+            font-size: 28px;
+            user-select: none;
+        }
+
+        margin-right: 14px;
+    }
+
+    &__info {
+        & > span {
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.link {
+    position: absolute;
+    right: 8px;
+    color: #cacaca;
+
+    transition: all 400ms;
+}
